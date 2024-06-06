@@ -121,6 +121,7 @@ $result = $conn->query($sql);
             </div>
             <div class="form-group col-md-2">
                 <label for="">&nbsp;</label>
+                <br>
                 <button type="submit" class="btn btn-primary btn-block">Buscar</button>
             </div>
         </div>
@@ -186,6 +187,7 @@ $result = $conn->query($sql);
             <label for="comentario">Comentario:</label>
             <textarea class="form-control" id="comentario" name="comentario" rows="3"><?php echo $renta_data['comentario']; ?></textarea>
         </div>
+        <br>
         <button type="submit" name="save" class="btn btn-primary"><?php echo $id_vehiculo_renta ? 'Guardar Cambios' : 'Agregar'; ?></button>
         <a href="fpdf-tutoriales-master/PruebaH.php" target="_blank" class="btn btn-sm btn-warning">Generar Reporte</a>
     </form>

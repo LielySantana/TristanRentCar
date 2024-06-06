@@ -16,17 +16,17 @@ include 'db.php';
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <h2 class="text-center">Login</h2>
+                <h2 class="text-center">Tristan RentCar Login</h2>
                 <form action="login.php" method="POST">
                     <div class="form-group">
-                        <label for="username">Username</label>
+                        <label for="username">Nombre de usuario</label>
                         <input type="text" class="form-control" id="username" name="username" required>
                     </div>
                     <div class="form-group">
-                        <label for="password">Password</label>
+                        <label for="password">Contraseña</label>
                         <input type="password" class="form-control" id="password" name="password" required>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    <button type="submit" class="btn btn-primary btn-block">Acceder</button>
                 </form>
             </div>
         </div>

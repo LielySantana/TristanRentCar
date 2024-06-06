@@ -172,6 +172,7 @@ $result = $conn->query($sql);
                 <label class="form-check-label" for="estado">Activo</label>
             </div>
         </div>
+        <br>
         <button type="submit" name="save" class="btn btn-primary">Guardar</button>
     </form>
 
@@ -218,7 +219,7 @@ $result = $conn->query($sql);
         </tbody>
     </table>
 </div>
-
+<br><br><br>
 <?php
 include 'templates/footer.php';
 $conn->close();

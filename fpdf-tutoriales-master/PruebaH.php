@@ -11,7 +11,7 @@ class PDF extends FPDF
     // Cabecera de página
     function Header()
     {
-        $this->Image('logo.png', 270, 5, 20); // Logo de la empresa
+        $this->Image('logo.jpeg', 270, 5, 20); // Logo de la empresa
         $this->SetFont('Arial', 'B', 19);
         $this->Cell(95);
         $this->SetTextColor(0, 0, 0);
